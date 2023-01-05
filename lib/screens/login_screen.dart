@@ -1,18 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:weight_tracker/components/custom_button.dart';
 import 'package:weight_tracker/constants.dart';
-import 'package:weight_tracker/screens/registration_screen.dart';
-import 'package:weight_tracker/screens/signin_screen.dart';
 
-class WelcomScreen extends StatefulWidget {
-  static String TAG = 'signIn_screen';
-  const WelcomScreen({Key? key}) : super(key: key);
+class LoginInScreen extends StatelessWidget {
+  const LoginInScreen({Key? key}) : super(key: key);
 
-  @override
-  State<WelcomScreen> createState() => _WelcomScreenState();
-}
-
-class _WelcomScreenState extends State<WelcomScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,7 +19,7 @@ class _WelcomScreenState extends State<WelcomScreen> {
               children: [
                 Container(
                   height: 180,
-                  child: Image.asset('images/logo.png' , color: orangeColor,),
+                  // child: Image.asset('images/logo.png' , color: orangeColor,),
                 ),
                 const Text(
                   'MessageMe',
@@ -43,13 +35,13 @@ class _WelcomScreenState extends State<WelcomScreen> {
             CustomButton(text: 'Sign In' ,
               color: orangeColor,
               onPress: (){
-                Navigator.pushNamed(context, SignInScreen.TAG);
+                // Navigator.pushNamed(context, SignInScreen.TAG);
               },
             ),
             CustomButton(text: 'register',
               color: blueColor,
               onPress: (){
-                Navigator.pushNamed(context, RegistrationScreen.TAG);
+                // Navigator.pushNamed(context, RegistrationScreen.TAG);
               },
             ),
           ],

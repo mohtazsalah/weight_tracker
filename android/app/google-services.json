@@ -1,77 +1,34 @@
 {
   "project_info": {
-    "project_number": "630300359027",
-    "project_id": "messageme-app-c3412",
-    "storage_bucket": "messageme-app-c3412.appspot.com"
+    "project_number": "716773987486",
+    "project_id": "weight-tracker-327c3",
+    "storage_bucket": "weight-tracker-327c3.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:630300359027:android:e60975ec4708282d536d06",
+        "mobilesdk_app_id": "1:716773987486:android:9f10c160c854f2a275978f",
         "android_client_info": {
           "package_name": "com.example.weight_tracker"
         }
       },
       "oauth_client": [
         {
-          "client_id": "630300359027-ibe56jmnn3eoh6b62kbv40qt2oqqjau2.apps.googleusercontent.com",
+          "client_id": "716773987486-smretn5cf9a6e5oqj9qurll6oam9862a.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDWHmyLGw5bfOmnyvmqoFCWBtLI5Ha-OQo"
+          "current_key": "AIzaSyAJw6lnwTdj246NgPBJvj61_IIqy8FLlWY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "630300359027-ibe56jmnn3eoh6b62kbv40qt2oqqjau2.apps.googleusercontent.com",
+              "client_id": "716773987486-smretn5cf9a6e5oqj9qurll6oam9862a.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "630300359027-pqp2ovo8f5rvu5e9qagmtaqndjebngtr.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "mo.moataz.chatApp"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:630300359027:android:2df10108b864840d536d06",
-        "android_client_info": {
-          "package_name": "mo.moataz.chatApp"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "630300359027-ibe56jmnn3eoh6b62kbv40qt2oqqjau2.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDWHmyLGw5bfOmnyvmqoFCWBtLI5Ha-OQo"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "630300359027-ibe56jmnn3eoh6b62kbv40qt2oqqjau2.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "630300359027-pqp2ovo8f5rvu5e9qagmtaqndjebngtr.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "mo.moataz.chatApp"
-              }
             }
           ]
         }
